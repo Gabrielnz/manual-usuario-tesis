@@ -2,12 +2,12 @@
 \vfill
 
 \section{Introducci\'{o}n}
-	El Spectrasoft es un software de c\'{o}digo abierto para el manejo del MiniScan XE Plus, el cual es usado en el diagn\'{o}stico de patolog\'{i}as dermatol\'{o}gicas en pacientes. Este software ofrece funciones de gesti\'{o}n de mediciones, historias m\'{e}dicas de pacientes y muestras. La vista principal del Spectrasoft es la mostrada en la figura 1.
+	El Spectrasoft es un software de c\'{o}digo abierto para el manejo del MiniScan XE Plus, el cual es usado en el diagn\'{o}stico de patolog\'{i}as dermatol\'{o}gicas en pacientes. Este software ofrece funciones de gesti\'{o}n de mediciones, historias m\'{e}dicas de pacientes y muestras. La vista principal del Spectrasoft es la mostrada en la figura \ref{fig:vista-principal}.
 
 \begin{figure}[H]
   \centering
   \includegraphics[width=1\linewidth]{./img/vista-principal.jpg}
-\caption{Vista principal del Spectrasoft}
+\caption{Vista principal del Spectrasoft\label{fig:vista-principal}}
 \end{figure}
 
 \newpage
@@ -60,7 +60,7 @@
 \section{Manejo del MiniScan XE Plus}
 
 	\subsection{Conectar y desconectar}
-		Para conectar o desconectar el MiniScan XE Plus, entre al men\'{u} del MiniScan. Estas opciones son las ilustradas en la figura 2.
+		Para conectar o desconectar el MiniScan XE Plus, entre al men\'{u} del MiniScan (v\'{e}ase la figura \ref{fig:conectar-desconectar}).
 
 \begin{figure}[H]
 \centering
@@ -72,11 +72,11 @@
   \centering
   \includegraphics[width=.6\linewidth]{./img/desconectar.jpg}
 \end{subfigure}
-\caption{Conectar y desconectar MiniScan XE Plus}
+\caption{Conectar y desconectar MiniScan XE Plus\label{fig:conectar-desconectar}}
 \end{figure}
 
 	\subsection{Calibrar}
-		Entre al men\'{u} del Miniscan y seleccione la opci\'{o}n estandarizar. Prepare la trampa negra del Miniscan para su medici\'{o}n y seleccione listo, por \'{u}ltimo prepare la cer\'{a}mica blanca para su medici\'{o}n y seleccione listo. Todo esto se ilustra en la figura 3.
+		Entre al men\'{u} del Miniscan y seleccione la opci\'{o}n estandarizar. Prepare la trampa negra del Miniscan para su medici\'{o}n y seleccione listo, por \'{u}ltimo prepare la cer\'{a}mica blanca para su medici\'{o}n y seleccione listo (v\'{e}ase la figura \ref{fig:calibrar}).
 	
 \begin{figure}[H]
 \centering
@@ -93,14 +93,14 @@
   \centering
   \includegraphics[width=.9\linewidth]{./img/estandarizar-blanco.jpg}
 \end{subfigure}
-\caption{Calibrar el MiniScan XE Plus}
+\caption{Calibrar el MiniScan XE Plus\label{fig:calibrar}}
 \end{figure}
 
 \section{Gesti\'{o}n de mediciones}
 	
 	\subsection{Realizar una medici\'{o}n}
 	
-	Entre al men\'{u} del MiniScan, o bien seleccione la opci\'{o}n directamente de la barra de herramientras. Estas opciones son las ilustradas en la figura 4.
+	Entre al men\'{u} del MiniScan, o bien seleccione la opci\'{o}n directamente de la barra de herramientras (v\'{e}ase la figura \ref{fig:medicion}).
 	
 \begin{figure}[H]
 \centering
@@ -112,75 +112,105 @@
   \centering
   \includegraphics[width=.6\linewidth]{./img/medir-barra.jpg}
 \end{subfigure}
-\caption{Realizar medici\'{o}n}
+\caption{Realizar medici\'{o}n\label{fig:medicion}}
 \end{figure}
 
-	\subsection{Consultar y borrar resultados de una medici\'{o}n}
+	\subsection{Consultar resultados de una medici\'{o}n}
 	
-	Los datos espectrales de una medici\'{o}n y los resultados relacionados con la misma aparecen se muestran en las figuras 5 y 6.
-	
+	El men\'{u} de los resultados de una medici\'{o}n es ilustrado en la figura \ref{fig:menu-resultados}, y todos los resultados son ilustrados desde la figura \ref{fig:datos-espectrales} a la figura \ref{fig:resultados-adicionales}.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=.5\linewidth]{./img/resultados-menu.jpg}
+\caption{Men\'{u} de resultados de una medici\'{o}n\label{fig:menu-resultados}}
+\end{figure}
+
 \begin{figure}[H]
   \centering
   \includegraphics[width=1\linewidth]{./img/resultados.jpg}
-\caption{Datos de una medici\'{o}n}
+\caption{Datos espectrales de una medici\'{o}n\label{fig:datos-espectrales}}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=1\linewidth]{./img/resultados-menu.jpg}
-\caption{Men\'{u} de resultados de una medici\'{o}n}
+  \includegraphics[width=1\linewidth]{./img/resultados-reflectancia.jpg}
+\caption{Curva de reflectancia de una medici\'{o}n\label{fig:resultados-reflectancia}}
 \end{figure}
+
+\newpage
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\linewidth]{./img/resultados-absorbancia.jpg}
+\caption{Curva de absorbancia de una medici\'{o}n\label{fig:resultados-absorbancia}}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\linewidth]{./img/resultados-absorcion.jpg}
+\caption{Curva de absorci\'{o}n de una medici\'{o}n\label{fig:resultados-absorcion}}
+\end{figure}
+
+\newpage
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=.7\linewidth]{./img/resultados-adicionales.jpg}
+\caption{Datos adicionales de una medici\'{o}n\label{fig:resultados-adicionales}}
+\end{figure}
+
+\newpage
 
 \section{Gesti\'{o}n de sesiones}
 
 	\subsection{Iniciar sesi\'{o}n}
 	
-	Para iniciar sesi\'{o}n entre al men\'{u} de usuario y seleccione la opci\'{o}n iniciar sesi\'{o}n. Debe ingresar su c\'{e}dula de identidad y su contrase\~{n}a. Esto es ilustrado en la figura 7.
+	Para iniciar sesi\'{o}n entre al men\'{u} de usuario y seleccione la opci\'{o}n iniciar sesi\'{o}n. Debe ingresar su c\'{e}dula de identidad y su contrase\~{n}a. Esto es ilustrado en la figura \ref{fig:iniciar-sesion}.
 	
 \begin{figure}[H]
   \centering
   \includegraphics[width=1\linewidth]{./img/inicio-sesion.jpg}
-\caption{Iniciar sesi\'{o}n}
+\caption{Iniciar sesi\'{o}n\label{fig:iniciar-sesion}}
 \end{figure}
 	
 	\subsection{Ver informaci\'{o}n del usuario}
 	
-	Seleccione la opci\'{o}n ver usuario, ubicada en el men\'{u} de usuario. El men\'{u} de usuario y la ventana de informaci\'{o}n son ilustrados en las figuras 8 y 9.
+	Seleccione la opci\'{o}n ver usuario, ubicada en el men\'{u} de usuario. El men\'{u} de usuario y la ventana de informaci\'{o}n son ilustrados en las figuras \ref{fig:menu-usuario} y \ref{fig:ver-usuario}.
 
 \begin{figure}[H]
   \centering
   \includegraphics[width=.3\linewidth]{./img/menu-usuario.jpg}
-\caption{Men\'{u} de usuario}
+\caption{Men\'{u} de usuario\label{fig:menu-usuario}}
 \end{figure}
 
 \begin{figure}[H]
   \centering
   \includegraphics[width=.5\linewidth]{./img/ver-usuario.jpg}
-\caption{Ver usuario}
+\caption{Ver usuario\label{fig:ver-usuario}}
 \end{figure}
 
 \newpage
 
 	\subsection{Modificar informaci\'{o}n del usuario}
-	
-	Seleccione la opci\'{o}n modificar usuario, ubicada en el men\'{u} de usuario. La ventana para modificar el usuario es ilustrada en la figura 10.
+
+	Seleccione la opci\'{o}n modificar usuario, ubicada en el men\'{u} de usuario. La ventana para modificar el usuario es ilustrada en la figura \ref{fig:modificar-usuario}.
 
 	\subsection{Cambiar contrase\~{n}a del usuario}
-	
-	Seleccione la opci\'{o}n cambiar contrase\~{n}a, ubicada en el men\'{u} de usuario. Debe ingresar la contrase\~{n}a actual del usuario y la nueva contrase\~{n}a (dos veces) para poder realizar el cambio. La ventana para realizar esta operaci\'{o}n se ilustra en la figura 11.
+
+	Seleccione la opci\'{o}n cambiar contrase\~{n}a, ubicada en el men\'{u} de usuario. Debe ingresar la contrase\~{n}a actual del usuario y la nueva contrase\~{n}a (dos veces) para poder realizar el cambio. La ventana para realizar esta operaci\'{o}n se ilustra en la figura \ref{fig:cambiar-clave}.
 
 \begin{figure}[H]
 \centering
 \begin{minipage}{.5\textwidth}
   \centering
   \includegraphics[width=.9\linewidth]{./img/modificar-usuario.jpg}
-  \captionof{figure}{Modificar usuario}
+  \captionof{figure}{Modificar usuario\label{fig:modificar-usuario}}
   \label{fig:test1}
 \end{minipage}%
 \begin{minipage}{.5\textwidth}
   \centering
   \includegraphics[width=.9\linewidth]{./img/cambiar-clave.jpg}
-  \captionof{figure}{Cambiar contrase\~{n}a}
+  \captionof{figure}{Cambiar contrase\~{n}a\label{fig:cambiar-clave}}
   \label{fig:test2}
 \end{minipage}
 \end{figure}
@@ -195,47 +225,47 @@
 
 	\subsection{Registrar historia}
 	
-	Seleccione la opci\'{o}n registrar historia, ubicada en el men\'{u} historia. Solo los usuarios dermat\'{o}logos pueden registrar una historia m\'{e}dica. El men\'{u} de historia y la ventana de registro se ilustran en las figuras 12 y 13.
+	Seleccione la opci\'{o}n registrar historia, ubicada en el men\'{u} historia. Solo los usuarios dermat\'{o}logos pueden registrar una historia m\'{e}dica. El men\'{u} de historia y la ventana de registro se ilustran en las figuras \ref{fig:menu-historia} y \ref{fig:registrar-historia}.
 
 \begin{figure}[H]
   \centering
   \includegraphics[width=.3\linewidth]{./img/menu-historia.jpg}
-\caption{Men\'{u} historia}
+\caption{Men\'{u} historia\label{fig:menu-historia}}
 \end{figure}
 
 \begin{figure}[H]
   \centering
   \includegraphics[width=.4\linewidth]{./img/registrar-historia.jpg}
-\caption{Resgistrar historia}
+\caption{Resgistrar historia\label{fig:registrar-historia}}
 \end{figure}
 
 	\subsection{Buscar historia}
 	
-	En el men\'{u} de historia, seleccione la opci\'{o}n buscar historia. Esta ventana permite filtrar la b\'{u}squeda de historias empleando ciertos criterios. Para abrir la historia, seleccionela en la lista de historias y por \'{u}ltimo seleccione la opci\'{o}n abrir historia. Esta ventana se ilustra en la figura 14.
+	En el men\'{u} de historia, seleccione la opci\'{o}n buscar historia. Esta ventana permite filtrar la b\'{u}squeda de historias empleando ciertos criterios. Para abrir la historia, seleccionela en la lista de historias y por \'{u}ltimo seleccione la opci\'{o}n abrir historia. Esta ventana se ilustra en la figura \ref{fig:buscar-historia}.
 	
 \begin{figure}[H]
   \centering
   \includegraphics[width=.9\linewidth]{./img/buscar-historia.jpg}
-\caption{Buscar historia}
+\caption{Buscar historia\label{fig:buscar-historia}}
 \end{figure}
 	
 	\subsection{Ver historia}
 	
-	Seleccione la opci\'{o}n ver historia, ubicada en el men\'{u} historia. Esta ventana es ilustrada en la figura 15.
+	Seleccione la opci\'{o}n ver historia, ubicada en el men\'{u} historia. Esta ventana es ilustrada en la figura \ref{fig:ver-historia}.
 	
 \begin{figure}[H]
   \centering
   \includegraphics[width=.6\linewidth]{./img/ver-historia1.jpg}
-\caption{Ver historia}
+\caption{Ver historia\label{fig:ver-historia}}
 \end{figure}
 		
 	\subsection{Modificar historia}
 	
-	Seleccione la opci\'{o}n modificar historia, ubicada en el submen\'{u} m\'{a}s opciones, dentro del men\'{u} historia. Esta ventana se ilustra en la figura 16.
+	Seleccione la opci\'{o}n modificar historia, ubicada en el submen\'{u} m\'{a}s opciones, dentro del men\'{u} historia. Esta ventana se ilustra en la figura \ref{fig:modificar-historia}.
 	
 	\subsection{Eliminar historia}
 	
-	Seleccione la opci\'{o}n eliminar historia, ubicada en el submen\'{u} m\'{a}s opciones, dentro del men\'{u} historia. Esta ventana se ilustra en la figura 17.
+	Seleccione la opci\'{o}n eliminar historia, ubicada en el submen\'{u} m\'{a}s opciones, dentro del men\'{u} historia. Esta ventana se ilustra en la figura \ref{fig:eliminar-historia}.
 	
 \begin{figure}[H]
 \centering
@@ -243,13 +273,13 @@
   \centering
   \includegraphics[width=.9\linewidth]{./img/modificar-historia.jpg}
   \captionof{figure}{Modificar historia}
-  \label{fig:test1}
+  \label{fig:modificar-historia}
 \end{minipage}%
 \begin{minipage}{.5\textwidth}
   \centering
   \includegraphics[width=1\linewidth]{./img/eliminar-historia.jpg}
   \captionof{figure}{Eliminar historia}
-  \label{fig:test2}
+  \label{fig:eliminar-historia}
 \end{minipage}
 \end{figure}
 
@@ -263,80 +293,79 @@
 
 	\subsection{Registrar muestra}
 	
-	Seleccione la opci\'{o}n registrar muestra, ubicada en el men\'{u} de muestra (tambi\'{e}n disponible en la barra de herramientas). En la ventana de registro aparecer\'{a}n dos tipos de muestra que se pueden registrar, fototipo y lesi\'{o}n. Solo se puede registrar una muestra si el usuario es dermat\'{o}logo, si hay una historia m\'{e}dica cargada y si se realiz\'{o} una medici\'{o}n nueva. El men\'{u} muestra y la ventana de tipos de muestra se ilustran en las figuras 18 y 19.
+	Seleccione la opci\'{o}n registrar muestra, ubicada en el men\'{u} de muestra (tambi\'{e}n disponible en la barra de herramientas). En la ventana de registro aparecer\'{a}n dos tipos de muestra que se pueden registrar, fototipo y lesi\'{o}n. Solo se puede registrar una muestra si el usuario es dermat\'{o}logo, si hay una historia m\'{e}dica cargada y si se realiz\'{o} una medici\'{o}n nueva. El men\'{u} muestra y la ventana de tipos de muestra se ilustran en las figuras \ref{fig:menu-muestra} y \ref{fig:tipos-muestra}.
 	
 \begin{figure}[H]
   \centering
   \includegraphics[width=.3\linewidth]{./img/menu-muestra.jpg}
-\caption{Men\'{u} muestra}
+\caption{Men\'{u} muestra\label{fig:menu-muestra}}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=.9\linewidth]{./img/tipo-muestra.jpg}
-\caption{Tipos de muestra}
+  \includegraphics[width=.8\linewidth]{./img/tipo-muestra.jpg}
+\caption{Tipos de muestra\label{fig:tipos-muestra}}
 \end{figure}
 	
 		\subsubsection{Registrar fototipo}
 		
-		En la ventana para registrar un fototipo, debe especificar el \'{a}rea en donde se le est\'{a} tomando la muestra al paciente, y se debe seleccionar el fototipo, en la opci\'{o}n clasificar fototipo. Esta ventana se puede apreciar en la figura 20.
+		En la ventana para registrar un fototipo, debe especificar el \'{a}rea en donde se le est\'{a} tomando la muestra al paciente, y se debe seleccionar el fototipo, en la opci\'{o}n clasificar fototipo. Esta ventana se puede apreciar en la figura \ref{fig:registrar-fototipo}.
 		
 \begin{figure}[H]
   \centering
   \includegraphics[width=.5\linewidth]{./img/registrar-fototipo1.jpg}
-\caption{Registrar fototipo}
+\caption{Registrar fototipo\label{fig:registrar-fototipo}}
 \end{figure}
 
-		En la ventana de clasificaci\'{o}n del fototipo aparecer\'{a} el fototipo recomendado para la muestra dada, y ser\'{a} necesario elegir el fototipo que se desea registrar. Esto es ilustrado en la figura 21.
-		
+		En la ventana de clasificaci\'{o}n del fototipo aparecer\'{a} el fototipo recomendado para la muestra dada, y ser\'{a} necesario elegir el fototipo que se desea registrar. Esto es ilustrado en la figura \ref{fig:clasificar-fototipo}.
 		
 \begin{figure}[H]
   \centering
   \includegraphics[width=.8\linewidth]{./img/fototipo.jpg}
-\caption{Clasificar fototipo}
+\caption{Clasificar fototipo\label{fig:clasificar-fototipo}}
 \end{figure}
 \newpage
-	Luego de haber elegido el fototipo, aparecer\'{a} la ventana de registro nuevamente, con el fototipo elegido actualizado; por \'{u}ltimo, seleccione registrar fototipo. Esto es ilustrado en la figura 22.
+	Luego de haber elegido el fototipo, aparecer\'{a} la ventana de registro nuevamente, con el fototipo elegido actualizado; por \'{u}ltimo, seleccione registrar fototipo. Esto es ilustrado en la figura \ref{fig:registrar-fototipo2}.
 
 \begin{figure}[H]
   \centering
   \includegraphics[width=.5\linewidth]{./img/registrar-fototipo2.jpg}
-\caption{Registrar fototipo}
+\caption{Registrar fototipo\label{fig:registrar-fototipo2}}
 \end{figure}
-\newpage		
-		\subsubsection{Registrar lesi\'{o}n}
-			En la ventana de registrar lesi\'{o}n, debe especificar el nombre de la lesi\'{o}n y el \'{a}rea en donde se est\'{a} tomando la muestra de la misma. Esta ventana se puede apreciar en la figura 23.		
-		
+\newpage	
+
+\subsubsection{Registrar lesi\'{o}n}
+			En la ventana de registrar lesi\'{o}n, debe especificar el nombre de la lesi\'{o}n y el \'{a}rea en donde se est\'{a} tomando la muestra de la misma. Esta ventana se puede apreciar en la figura \ref{fig:registrar-lesion}.
 		
 \begin{figure}[H]
   \centering
   \includegraphics[width=.6\linewidth]{./img/registrar-lesion.jpg}
-\caption{Registrar lesi\'{o}n}
+\caption{Registrar lesi\'{o}n\label{fig:registrar-lesion}}
 \end{figure}
 	
 	\subsection{Buscar muestra}
-	
-		Seleccione la opci\'{o}n buscar muestra, ubicada en el men\'{u} de muestra (tambi\'{e}n disponible en la barra de herramientas). Esta ventana permite filtrar la b\'{u}squeda de las muestras pertenecientes a la historia que est\'{e} cargada en ese momento, empleando ciertos criterios. Para abrir la muestra, seleccionela en la lista de muestras y por \'{u}ltimo seleccione la opci\'{o}n abrir muestra. Esta ventana se ilustra en la figura 24.
-		
+
+		Seleccione la opci\'{o}n buscar muestra, ubicada en el men\'{u} de muestra (tambi\'{e}n disponible en la barra de herramientas). Esta ventana permite filtrar la b\'{u}squeda de las muestras pertenecientes a la historia que est\'{e} cargada en ese momento, empleando ciertos criterios. Para abrir la muestra, seleccionela en la lista de muestras y por \'{u}ltimo seleccione la opci\'{o}n abrir muestra. Esta ventana se ilustra en la figura \ref{fig:buscar-muestra}.
+
 \begin{figure}[H]
   \centering
   \includegraphics[width=.9\linewidth]{./img/buscar-muestra.jpg}
-\caption{Buscar muestra}
+\caption{Buscar muestra\label{fig:buscar-muestra}}
 \end{figure}
 	
 	\subsection{Ver muestra}
 	
-	Seleccione la opci\'{o}n ver muestra, ubicada en el men\'{u} de muestra (tambi\'{e}n disponible en la barra de herramientas). Esta ventana se ilustra en la figura 25.
+	Seleccione la opci\'{o}n ver muestra, ubicada en el men\'{u} de muestra (tambi\'{e}n disponible en la barra de herramientas). Esta ventana se ilustra en la figura \ref{fig:ver-muestra}.
 	
 \begin{figure}[H]
   \centering
   \includegraphics[width=.5\linewidth]{./img/ver-muestra.jpg}
-\caption{Ver muestra}
+\caption{Ver muestra\label{fig:ver-muestra}}
 \end{figure}
 
 	\subsection{Exportar muestra}
 	
-	Seleccione la opci\'{o}n exportar muestra, ubicada en el men\'{u} de muestra (tambi\'{e}n disponible en la barra de herramientas). Estas opciones se ilustran en la figura 26.
+	Seleccione la opci\'{o}n exportar muestra, ubicada en el men\'{u} de muestra (tambi\'{e}n disponible en la barra de herramientas). Estas opciones se ilustran en la figura \ref{fig:exportar-muestra}.
 	
 \begin{figure}[H]
 \centering
@@ -348,18 +377,18 @@
   \centering
   \includegraphics[width=.45\linewidth]{./img/exportar-barra.jpg}
 \end{subfigure}
-\caption{Exportar muestra}
+\caption{Exportar muestra\label{fig:exportar-muestra}}
 \end{figure}
 
 	La muestra se exporta en el escritorio a un archivo .xlsx, que puede abrirse y modificarse con cualquier programa que maneje hojas de c\'{a}lculo.
 
 	\subsection{Modificar muestra}
 	
-	Seleccione la opci\'{o}n modificar muestra, ubicada en el submen\'{u} m\'{a}s opciones, dentro del men\'{u} muestra. Esta ventana se ilustra en la figura 27.
+	Seleccione la opci\'{o}n modificar muestra, ubicada en el submen\'{u} m\'{a}s opciones, dentro del men\'{u} muestra. Esta ventana se ilustra en la figura \ref{fig:modificar-muestra}.
 	
 	\subsection{Eliminar muestra}
 	
-	Seleccione la opci\'{o}n eliminar muestra, ubicada en el submen\'{u} m\'{a}s opciones, dentro del men\'{u} muestra. Esta ventana se ilustra en la figura 28.
+	Seleccione la opci\'{o}n eliminar muestra, ubicada en el submen\'{u} m\'{a}s opciones, dentro del men\'{u} muestra. Esta ventana se ilustra en la figura \ref{fig:eliminar-muestra}.
 	
 \begin{figure}[H]
 \centering
@@ -367,13 +396,13 @@
   \centering
   \includegraphics[width=.9\linewidth]{./img/modificar-muestra.jpg}
   \captionof{figure}{Modificar muestra}
-  \label{fig:test1}
+  \label{fig:modificar-muestra}
 \end{minipage}%
 \begin{minipage}{.5\textwidth}
   \centering
   \includegraphics[width=1\linewidth]{./img/eliminar-muestra.jpg}
   \captionof{figure}{Eliminar muestra}
-  \label{fig:test2}
+  \label{fig:eliminar-muestra}
 \end{minipage}
 \end{figure}
 
@@ -387,50 +416,50 @@
 
 	\subsection{Registrar usuario}
 	
-	Seleccione la opci\'{o}n registrar usuario, ubicada en el submen\'{u} m\'{a}s opciones, dentro del men\'{u} usuario. Esta ventana es ilustrada en la figura 29.
+	Seleccione la opci\'{o}n registrar usuario, ubicada en el submen\'{u} m\'{a}s opciones, dentro del men\'{u} usuario. Esta ventana es ilustrada en la figura \ref{fig:registrar-usuario}.
 	
 \begin{figure}[H]
   \centering
   \includegraphics[width=.6\linewidth]{./img/registrar-usuario.jpg}
-\caption{Registrar usuario}
+\caption{Registrar usuario\label{fig:registrar-usuario}}
 \end{figure}
 	
 	\subsection{Administrar usuarios}
 	
-	Seleccione la opci\'{o}n administrar usuarios, ubicada en el submen\'{u} m\'{a}s opciones, dentro del men\'{u} usuario. Administrar usuarios permite cambiar sus roles, cambiar sus contrase\~{n}as y eliminarlos. Esta ventana es ilustrada en la figura 30.
+	Seleccione la opci\'{o}n administrar usuarios, ubicada en el submen\'{u} m\'{a}s opciones, dentro del men\'{u} usuario. Administrar usuarios permite cambiar sus roles, cambiar sus contrase\~{n}as y eliminarlos. Esta ventana es ilustrada en la figura \ref{fig:administrar-usuarios}.
 	
 \begin{figure}[H]
   \centering
   \includegraphics[width=1\linewidth]{./img/administrar-usuarios.jpg}
-\caption{Administrar usuarios}
+\caption{Administrar usuarios\label{fig:administrar-usuarios}}
 \end{figure}
 	
 		\subsubsection{Cambiar rol}
 		
-		Una vez haya seleccionado un usuario de la lista de usuarios, seleccione la opci\'{o}n cambiar rol. Esta ventana es ilustrada en la figura 31.
+		Una vez haya seleccionado un usuario de la lista de usuarios, seleccione la opci\'{o}n cambiar rol. Esta ventana es ilustrada en la figura \ref{fig:cambiar-rol}.
 		
 \begin{figure}[H]
   \centering
   \includegraphics[width=1\linewidth]{./img/administrar-rol.jpg}
-\caption{Cambiar rol}
+\caption{Cambiar rol\label{fig:cambiar-rol}}
 \end{figure}
 		
 		\subsubsection{Cambiar contrase\~{n}a}
 		
-		Una vez haya seleccionado un usuario de la lista de usuarios, seleccione la opci\'{o}n cambiar contrase\~{n}a. Esta opci\'{o}n requiere de la contrase\~{n}a del administrador que este realizando la operaci\'{o}n, y de la nueva contrase\~{n}a para el usuario. Esto es ilustrado en la figura 32.
+		Una vez haya seleccionado un usuario de la lista de usuarios, seleccione la opci\'{o}n cambiar contrase\~{n}a. Esta opci\'{o}n requiere de la contrase\~{n}a del administrador que este realizando la operaci\'{o}n, y de la nueva contrase\~{n}a para el usuario. Esto es ilustrado en la figura \ref{fig:cambiar-clave2}.
 		
 \begin{figure}[H]
   \centering
   \includegraphics[width=1\linewidth]{./img/administrar-clave.jpg}
-\caption{Cambiar contrase\~{n}a}
+\caption{Cambiar contrase\~{n}a\label{fig:cambiar-clave2}}
 \end{figure}
 		
 		\subsubsection{Eliminar usuario}
 		
-		Una vez haya seleccionado un usuario de la lista de usuarios, seleccione la opci\'{o}n eliminar usuario. Esta opci\'{o}n solo se puede realizar con usuarios que no sean administradores. Esta opci\'{o}n es ilustrada en la figura 33.
+		Una vez haya seleccionado un usuario de la lista de usuarios, seleccione la opci\'{o}n eliminar usuario. Esta opci\'{o}n solo se puede realizar con usuarios que no sean administradores. Esta opci\'{o}n es ilustrada en la figura \ref{fig:eliminar-usuario}.
 		
 \begin{figure}[H]
   \centering
   \includegraphics[width=1\linewidth]{./img/administrar-eliminar.jpg}
-\caption{Eliminar usuario}
+\caption{Eliminar usuario\label{fig:eliminar-usuario}}
 \end{figure}
